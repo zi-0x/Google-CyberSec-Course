@@ -20,4 +20,14 @@ Task 4. Delete a user<br>
 1. Run a command to delete researcher9 from the system:<br>
 ```sudo userdel researcher9```<br>
 2. Run the following command to delete the researcher9 group that is no longer required:<br>
-```sudo groupdel researcher9```
+```sudo groupdel researcher9```<br><br>
+
+useradd<br>
+There are additional options you can use with useradd:<br>
+-g: Sets the user’s default group, also called their primary group<br>
+-G: Adds the user to additional groups, also called supplemental or secondary groups<br><br>
+usermod<br>
+There are other options you can use with usermod to specify how you want to modify the user, including:<br>
+-d: Changes the user’s home directory.<br>
+-l: Changes the user’s login name.<br>
+-L: Locks the account so the user can’t log in.<br><br>
